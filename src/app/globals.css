@@ -138,3 +138,9 @@ body::-webkit-scrollbar-thumb {
   background: rgb(71, 153, 205);
   border-radius: 1rem;
 }
+
+@media screen and (max-width:350px) {
+  body{
+    overflow-x: hidden !important;
+  }
+}

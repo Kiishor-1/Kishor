@@ -67,15 +67,18 @@ export default function Header() {
         <HireMeButton onClick={() => window.location.href = '#contact'} />
       </div>
       <div id="right" className="relative flex-1 flex justify-center items-center py-20 bg-no-repeat bg-center bg-cover" >
-        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" className='md:w-[70%] w-[100%] absolute z-10'>
-          <path fill="#FF0066" d="M59.3,-22.3C64.6,-2.8,48.3,20.6,26.8,36C5.3,51.4,-21.4,58.8,-38.2,47.7C-55.1,36.6,-62.1,7.1,-54.1,-16.1C-46.1,-39.2,-23,-56,2,-56.6C27,-57.2,53.9,-41.8,59.3,-22.3Z" transform="translate(100 100)" />
-          <image href="/assets/HeaderImg.png" x="50" y="30" height="100px" width="100px" />
+        {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+          className='absolute top-[2rem z-10 w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]'>
+          <path fill="#FF0066" d="M39.8,-36.4C55.9,-23.8,76.2,-11.9,79.8,3.7C83.5,19.2,70.5,38.4,54.5,48.9C38.4,59.4,19.2,61.2,1.9,59.3C-15.3,57.3,-30.7,51.7,-41.8,41.2C-52.9,30.7,-59.9,15.3,-61.7,-1.9C-63.6,-19.1,-60.4,-38.1,-49.3,-50.8C-38.1,-63.4,-19.1,-69.7,-3.6,-66.1C11.9,-62.5,23.8,-49.1,39.8,-36.4Z" transform="translate(100 100)" />
+          <image href="/assets/HeaderImg.png" x="60" y="35" height="100px" width="100px" />
+        </svg> */}
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+          className='absolute top-[2rem z-10 w-[350px] h-[350px] sm:w-[400px] sm:h-[400px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]'>
+          <path fill="#FF0066" d="M45.8,-33.7C59.3,-19.6,70.2,-0.6,65.8,13.7C61.5,27.9,42,37.4,24,43.8C5.9,50.3,-10.8,53.7,-26.8,48.7C-42.8,43.7,-58.1,30.2,-61,14.7C-63.9,-0.8,-54.4,-18.3,-42.2,-32.1C-29.9,-45.9,-15,-56,0.6,-56.5C16.2,-57,32.3,-47.8,45.8,-33.7Z" transform="translate(100 100)" />
+          <image href="/assets/HeaderImg.png" x="50" y="25" height="110px" width="110px" />
         </svg>
         <InteractiveGrid />
       </div>
-
-
-
     </motion.section>
   );
 }
