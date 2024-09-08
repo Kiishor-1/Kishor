@@ -64,7 +64,7 @@ export const experiences = {
         {
             role: "MERN Stack Developer",
             company: "Stealth Startup",
-            period: "February 2024 - July 2014",
+            period: "February 2024 - July 2024",
             description: "Developing and maintaining web applications using MERN stack.",
         },
         {

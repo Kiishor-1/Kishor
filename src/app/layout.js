@@ -16,16 +16,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={roboto.className}>
         <BackgroundDots>
           <div className=" relative max-w-[1100px] mx-auto p-2 flex flex-col">
             <Navbar />
             <div className="min-h-[40vh]">
-            {children}
+              {children}
             </div>
             <Footer />
           </div>
-          <Toaster/>
+          <Toaster />
         </BackgroundDots>
       </body>
 
